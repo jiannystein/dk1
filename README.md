@@ -1,38 +1,43 @@
-# dk1 — Practical AI in Healthcare Training Deck
+# dk1 — Practical AI in Healthcare Hospital Demo Deck
 
-Static HTML slide deck for a practical healthcare AI training programme.
+Cloudflare Pages deployment target:
 
-## Files
+https://dkslide.pages.dev/
 
-- `index.html` — main slide deck
-- `speaker_script.md` — slide-by-slide speaker script
-- `demo_scripts.md` — demo prompts and facilitation notes
-- `references.md` — curated reference list
-- `demo_data/` — synthetic training data only
-- `templates/` — reusable governance and pilot templates
+This repo contains a static HTML slide deck for a practical hospital AI training demo.
 
-## Local preview
+## Current deck direction
 
-Open `index.html` in a browser.
+- Designed for hospital demo use, not as a copied ECP page.
+- Loosely inspired by the second ECP report style: structured cards, strong hierarchy, cream-paper feel, thick outlines, and bold accent colors.
+- Focused on helping a nonprofit hospital build internal AI capability instead of depending fully on external consultants or large IT investment.
 
-Keyboard controls:
+## Main file
 
-- Right arrow / space: next slide
+- `index.html` — interactive slide deck
+
+## Presenter controls
+
+- Right arrow / Space: next slide
 - Left arrow: previous slide
-- N: speaker notes
-- F: fullscreen
-- Print/PDF button: export to PDF
+- N: toggle trainer notes
+- D: open demo prompt library
+- P: print / save as PDF
 
-## GitHub Pages publish steps
+## Training content covered
 
-1. Create a new GitHub repository named `dk1` under `jiannystein`.
-2. Upload all files in this folder to the repository root.
-3. Go to **Settings → Pages**.
-4. Source: **Deploy from a branch**.
-5. Branch: **main**, folder: **/** root.
-6. Save.
-7. Page URL should be: `https://jiannystein.github.io/dk1/`.
+- AI in plain language
+- Safe healthcare AI boundaries
+- Translation and patient-facing content
+- Prompt engineering as workflow control
+- Patient data privacy and governance
+- Workflow automation for hospital operations
+- Radiology AI readiness and PACS/RIS workflow impact
+- Physiotherapy and vestibular AI support boundaries
+- CDSS and risk prediction limitations
+- Vendor evaluation across SaaS, cloud, China options, and self-hosted models
+- 30-60-90 day nonprofit hospital pilot roadmap
 
-## Safety boundary
+## Training stance
 
-Do not use live patient data during training. All demo data included here is synthetic.
+AI should draft, structure, summarise, translate, and support workflow thinking. It should not replace clinical judgement, diagnose, or bypass hospital governance.
